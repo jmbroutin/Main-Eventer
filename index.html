@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Onepage Main Eventer/title>
+        <title>Onepage Main Eventer</title>
         <meta charset="utf-8">
         <meta name="description" content="Onepage Main Eventer">
         <meta name="keywords" content="Main Eventer,evenementiel">
@@ -9,8 +9,23 @@
         <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
+        <form class="info" action="traitment.php" method="post">
+          <fieldset>
+            <legend>Need an Events ?</legend>
+            <p>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required />
+              <label for="last">Lastname *</label>
+              <input type="text" name="last" id="last" required />
+              <label for="mail">E-mail *</label>
+              <input type="text" name="mail" id="mail" required />
+              <textarea name="description" rows="8" cols="50">Description</textarea>
+              <input type="submit" name="envoi" value="SEND"/>
+            </p>
+          </fieldset>
+        </form>
     </body>
 </html>
