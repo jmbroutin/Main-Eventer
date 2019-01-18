@@ -8,19 +8,18 @@ body{
   font-family: 'Arial', sans-serif;
 }
 
-aside{
-  display: inline-block;
-}
 
 .beer{
   float: right;
+  margin-right: 20%;
 }
 
 .clock{
   float: left;
+  margin-left: 20%;
 }
 
-h1{
+.Events{
   font-family: "Comfortaa Regular", Comfortaa;
   text-align: center;
   display: inline-block;
@@ -29,20 +28,50 @@ h1{
   font-size: 2.5em;
   border-bottom: 3px solid #c52323;
   padding-bottom: 20px;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 8%;
 }
 
-section{
+h2{
+  background-color: #c52323;
+}
+
+.container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
+  margin-top: 10%;
 }
 
 .box{
-  position: absolute;
-  display:inline-block;
-  margin-top: 30%;
-  max-width: 20%;
+  max-width: 15%;
+  text-align: center;
+  margin-right: 2%;
+  border: 1px solid #dee2e8;
+  -webkit-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+-moz-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+}
+
+footer{
+  background-image: url("swirl_pattern.png");
+  background-repeat:repeat-x;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+
+footer>p{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.round{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.logo{
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
 }
