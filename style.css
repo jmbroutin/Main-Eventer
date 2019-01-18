@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    color: rgb(161, 159, 159);
+    line-height: 140%;
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    }
+header
+{
+    width:100%;
+    position: relative;
+}
+
+.header-img{
+    width: 100%;
+    height: 500px;
+    background: url(header_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(40%);
+}
+nav{
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+    
+nav ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.logo{
+    position: absolute;
+    top: 145px;
+    left: 41%;
+}
+a:link {
+    color:white;
+    text-decoration:none;
+}
+a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+#containerWho {
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 940px;
+    min-height: 940px;
+}
+
+#containerTeam {
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 940px;
+    max-height: 940px;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    font-size: 2.5em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;
+    
+}
+
+.firstH1 {
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.secH1 {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+p {
+    margin-top: 2%;
+}
+
+.paragraphe1 {
+    margin-top: 6%;
+}
+
+
+span.clear { clear: left; display: block; }
+
+.capWho {
+    background-color: #c52323;
+    display: inline-block;
+    border: solid 3px white;
+    text-align: left;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.9em;
+    line-height: 130%;
+    position: absolute;
+    margin-left: -26%;
+    margin-top: 1%;
+}
+
+#containerTeam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
