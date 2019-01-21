@@ -251,6 +251,7 @@ span.clear {
   font-size: 2.5em;
   border-bottom: 3px solid #c52323;
   padding-bottom: 20px;
+  margin: auto;
 }
 
 
@@ -313,8 +314,10 @@ footer>p{
 
 .container2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 5%;
+    max-width: 30%;
+    margin: auto;
 }
 
 .foot_logo{
