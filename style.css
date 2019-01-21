@@ -1,21 +1,107 @@
 body {
-background-color: white;
-color: rgb(161, 159, 159);
-margin-left: 460px;
-margin-right: 460px;
-line-height: 140%;
-font-size: 1.1em;
-text-align: justify;
-font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: rgb(161, 159, 159);
+  line-height: 140%;
+  font-size: 1.1em;
+  text-align: justify;
+  font-family: 'Arial', sans-serif;
+  min-width: 940px;
+  max-height: 940px;
+}
+
+form {
+  padding-top: 10px;
 }
 
 legend {
-padding-top:10%; 
-font-family: 'Comfortaa', cursive;
-color: black;
-font-size: 45px;
-border-bottom: 3px solid #c52323;
-padding-bottom: 20px;
-margin-bottom: 50px;
-margin-top: 50px;
+  margin-right: 350px;
+  margin-left: 260px;
+  padding: 10px;
+  font-family: 'Comfortaa', cursive;
+  color: black;
+  font-size: 45px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  min-width: 400px;
+  max-height: 940px;
+}
+
+.underline {
+  border-top: 4px solid #c52323;
+  width: 340px;
+  height: 70px;
+  margin-left: 264px;
+  min-width: 340px;
+  max-height: 940px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.name {
+  margin-left: 370px;
+  margin-right: 120px;
+}
+
+input {
+  display: block;
+  border-radius: 15px;
+  border-color: #c52323;
+  border-width: thin;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  margin-top: 8px;
+  margin-bottom: 35px;
+  outline: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+textarea {
+  display: block;
+  border-radius: 15px;
+  border-color: #c52323;
+  border-width: thin;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  margin-top: 8px;
+  outline: none;
+  resize: none;
+
+}
+
+#send {
+  margin-top: 50px;
+  margin-left: 520px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #c52323;
+}
+
+#send:hover {
+  background-color: #c52323;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+label {
+  color: #000000;
+}
+
+.description {
+  display: block;
+  color: #000000;
+  margin-left: 370px;
 }

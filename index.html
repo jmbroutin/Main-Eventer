@@ -1,31 +1,51 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
     <head>
         <title>Onepage Main Eventer</title>
+
         <meta charset="utf-8">
         <meta name="description" content="Onepage Main Eventer">
         <meta name="keywords" content="Main Eventer,evenementiel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <form class="info" action="traitment.php" method="post">
-          <fieldset>
-            <legend>Need an Events ?</legend>
-            <p>
-              <label for="name">Name *</label>
-              <input type="text" name="name" id="name" required />
-              <label for="last">Lastname *</label>
-              <input type="text" name="last" id="last" required />
-              <label for="mail">E-mail *</label>
-              <input type="text" name="mail" id="mail" required />
-              <textarea name="description" rows="8" cols="50">Description</textarea>
-              <input type="submit" name="envoi" value="SEND"/>
-            </p>
-          </fieldset>
-        </form>
+      <form class="info" action="traitment.php" method="post">
+        <fieldset>
+          <legend>Need an Event ?</legend>
+          <div class="underline"></div>
+          <p>
+            <div class="container">
+            <div class="name">
+            <label for="name">Name *</label>
+            <input type="text" name="name" id="name" required />
+            </div>
+
+            <div class="last">
+            <label for="last">Lastname *</label>
+            <input type="text" name="last" id="last" required />
+            </div>
+            </div>
+
+            <div class="description"
+            <label for="mail">E-mail *</label>
+            <input type="text" name="mail" id="mail" required />
+
+            <label for="description">Description</label>
+            <textarea name="description" rows="10" cols="53"></textarea>
+            </div>
+
+            <input type="submit" name="envoi" value="SEND" id="send"/>
+          </p>
+        </fieldset>
+      </form>
     </body>
 </html>
