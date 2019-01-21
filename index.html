@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="fr">
+<html lang="en">
 
     <head>
         <title>Onepage Main Eventer</title>
@@ -18,19 +18,19 @@
         <header>
             <div class="header-img"></div>
             <div class="logo">
-                <img src="LOGO.png">
+                <img src="LOGO.png" alt ="le logo">
             </div>
             <nav>
                 <ul>
                     <li><a href="#WhoWeAre">About</a></li>
                     <li><a href="#containerTeam">Team</a></li>
                     <li><a href="#Events">Events</a></li>
-                    <li><a href="">Nous contacter</a></li>
+                    <li><a href="#formulaire">Nous contacter</a></li>
                 </ul>
             </nav>
         </header>
 
-    <section id="WhoWeAre">
+        <section id="WhoWeAre">
         <div id="containerWho">
                 <div id="imageBiere">
                     <img class="biere" src= imageBiere28.png alt = "Photo de bières de marque 28">
@@ -48,7 +48,8 @@
                 When a loyal tle is linguistic, the Hazed and Infused around a Pilsner Urquell recognizes the boiled monkey bite.
           </p>
         </div>
-
+        </section>
+        <section>
             <div id="containerTeam">
                 <div class="secH2"><h2>Our team...</h2></div>
                 <div id="ceoCOO">
@@ -85,78 +86,91 @@
                     </div>
                 </div>
           </div>
+          </section>
 
           <span class="clear"></span>
 
-          <div id="Events">
-           <div class="container_headline">
-             <div><h2 class="Events">Our Events</h2></div>
+          <section>
+            <div id="SuperEvent">
+                <div id="Events">
+                <div class="container_headline">
+                    <div><h2 class="Events">Our Events</h2></div>
 
-             <div class="clock">
-               <img src="popImageClock.png" alt="vintage girl with clock">
-             </div>
+                    <div class="clock">
+                    <img src="popImageClock.png" alt="vintage girl with clock">
+                    </div>
 
-             <div class="beer">
-               <img src="PopimageBeer.png" alt="vintage girl with beer">
-             </div>
-           </div>
+                    <div class="beer">
+                    <img src="PopimageBeer.png" alt="vintage girl with beer">
+                    </div>
+                </div>
+                </div>
 
-        <div class="container">
-          <div class="box">
-            <h3>Salsa Course</h3>
-              <p class="month">Nov</p>
-              <p class="date">21TH</p>
-                <h4>Latino night</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-          </div>
+                <div class="container">
+                <div class="box">
+                    <h3>Salsa Course</h3>
+                    <p class="month">Nov</p>
+                    <p class="date">21TH</p>
+                        <h4>Latino night</h4>
+                    <p class="paragraphEvent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                </div>
 
-          <div class="box">
-            <h3>Christmas</h3>
-              <p class="month">Dec</p>
-              <p class="date">24TH</p>
-                <h4>Christmas for refugees</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
+                <div class="boxXmas">
+                    <h3>Christmas</h3>
+                    <p class="month">Dec</p>
+                    <p class="date">24TH</p>
+                        <h4>Christmas for refugees</h4>
+                    <p class="paragraphEvent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    </div>
 
-            <div class="box">
-              <h3>Finance research</h3>
-                <p class="month">Jan</p>
-                <p class="date">5TH</p>
-                  <h4>Financers Drink</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-            </div>
-          </div>
-      </section>
-          
-      <form class="info" action="traitment.php" method="post">
+                    <div class="box">
+                    <h3>Finance research</h3>
+                        <p class="month">Jan</p>
+                        <p class="date">5TH</p>
+                        <h4>Financers Drink</h4>
+                        <p class="paragraphEvent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+
+                </div>
+        </div>
+        </section>
+         
+        <div id="formulaire">
+        <form class="info" action="traitment.php" method="post">
         <fieldset>
           <legend>Need an Event ?</legend>
           <div class="underline"></div>
-          <p>
-            <div class="container">
-            <div class="name">
-            <label for="name">Name *</label>
-            <input type="text" name="name" id="name" required />
+
+          <div id="toutleform">
+
+            <div id="NameLastname">
+                <div class="containerFORM">
+                    <div class="name">
+                    <label for="name">Name *</label>
+                    <input type="text" name="name" id="name" required />
+                    </div>
+                </div>
+
+                <div class="last">
+                    <label for="last">Lastname *</label>
+                    <input type="text" name="last" id="last" required />
+                </div>
             </div>
 
-            <div class="last">
-            <label for="last">Lastname *</label>
-            <input type="text" name="last" id="last" required />
-            </div>
-            </div>
+                <div class="description">
+                    <label for="mail">E-mail *</label>
+                    <input type="text" name="mail" id="mail" required />
+                    <label for="description">Description</label>
+                    <textarea name="description" rows="10" cols="53"></textarea>
+                </div>
+            
+                <input type="submit" name="envoi" value="SEND" id="send"/>
 
-            <div class="description"
-            <label for="mail">E-mail *</label>
-            <input type="text" name="mail" id="mail" required />
+        </div>
 
-            <label for="description">Description</label>
-            <textarea name="description" rows="10" cols="53"></textarea>
-            </div>
-          
-            <input type="submit" name="envoi" value="SEND" id="send"/>
-          </p>
         </fieldset>
-      </form>
+        </div>
+        </form>
+
 
       <footer>
         <p>MAIN EVENTERS</P>
