@@ -8,8 +8,8 @@ Gaëlle Gaban
 Git master :
 Jean-Marc Broutin
 
-Développeur web de A à Z :
+Développeurs web de A à Z :
 - Jean-Marc Broutin (Header + Animation)
-- Gaëlle Gaban (Who we are... - Our team...)
+- Gaëlle Gaban (Who we are... + Our team...)
 - Audrey Kremers (Need an event ?)
 - Caterina Mennito (Our events + Footer)
