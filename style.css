@@ -1,4 +1,3 @@
-
 body{
   background-color: white;
   color: rgb(161, 159, 159);
@@ -99,20 +98,15 @@ footer>p{
   position: relative;
   display: inline-block;
 }
-=======
-body {
-    background-color: white;
-    color: rgb(161, 159, 159);
-    line-height: 140%;
-    font-size: 1.1em;
-    text-align: justify;
-    font-family: 'Arial', sans-serif;
-    }
 header
 {
     width:100%;
     position: relative;
+    min-width:940px;
+    max-height:940px;
 }
+
+/* JEAN-MARC*/
 
 .header-img{
     width: 100%;
@@ -122,6 +116,7 @@ header
     background-size: 100% 100%;
     filter: brightness(40%);
 }
+
 nav{
     float: left;
     position: absolute;
@@ -134,77 +129,62 @@ nav ul {
     margin: 8px;
     padding: 0;
 }
+
 nav li {
     display: inline-block;
     padding: 0 20px;
 }
+
 .logo{
     position: absolute;
     top: 145px;
     left: 41%;
 }
+
 a:link {
     color:white;
     text-decoration:none;
 }
-a:visited
-{
+
+a:visited {
     color:white;
     text-decoration: none;
 }
-#containerWho {
-    margin-left: 25%;
-    margin-right: 25%;
-    min-width: 940px;
-    min-height: 940px;
-}
 
-#containerTeam {
-    margin-left: 25%;
-    margin-right: 25%;
-    min-width: 940px;
-    max-height: 940px;
-}
+/*GAELLE*/
 
-h1 {
-    font-family: 'Comfortaa', cursive;
-    color: black;
-    font-size: 2.5em;
-    border-bottom: 3px solid #c52323;
-    padding-bottom: 20px;
 
-}
-
-.firstH1 {
-    display: inline-block;
-    margin-top: 70px;
-    margin-bottom: 50px;
-
-}
-
-.secH1 {
-    display: inline-block;
-    margin-top: 20px;
-
-}
-
-.logo>img {
+#containerWho img {
     float: left;
-    margin-right: 50px;
+    margin-right:50px;
     margin-bottom: 50px;
     position: relative;
 }
 
-p {
-    margin-top: 2%;
+#containerTeam img  {
+    float: left;
+    margin-right:10px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
-.paragraphe1 {
-    margin-top: 6%;
+.biere {
+    margin-right: 40px;
 }
 
 
-span.clear { clear: left; display: block; }
+#containerWho {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 8%;
+    width:940px;
+    height:600px;
+}
+
+#imageBiere {
+    position: relative;
+
+}
 
 .capWho {
     background-color: #c52323;
@@ -219,13 +199,202 @@ span.clear { clear: left; display: block; }
     font-size: 0.9em;
     line-height: 130%;
     position: absolute;
-    margin-left: -26%;
+    left: -60px;
     margin-top: 1%;
 }
 
+#containerWho h2 {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    font-size: 2.5em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;   
+}
+
+#containerTeam h2 {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    font-size: 2.5em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;   
+}
+
+.firstH2 {
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.paragraphe1 {
+    margin-top: 6%;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+span.clear {
+    clear: left; display: block;
+}
+
+.paragraphe2 {
+    display: inline-block;
+    margin-left: -1%;
+    margin-top: -2%;
+}
+
 #containerTeam {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: 940px;
+    max-height: 940px;
+}
+
+.secH2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+
+#ceoCOO {
+    display: flex;
+}
+.logo>img {
+    float: left;
+}
+#ceo {
+    height: 20%;
+    width: 50%;
+    margin-left: -60px;
+    margin-right: 50px;
+    float: left;
+}
+
+#coo {
+    height: 20%;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#cfoCTO {
+    display: flex;
+}
+
+#cfo {
+    height: 20%;
+    width: 50%;
+    margin-left: -60px;
+    margin-right: 50px;
+    float: left;
+    
+}
+
+#cto {
+    height: 20%;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#containerTeam figcaption {
+    background-color: #c52323;
+    display: inline-block;
+    border: solid 3px white;
+    text-align: left;
+    color: white;
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-bottom: 8px;
+    margin-left: -10x;
+}
+
+/*CATERINA*/
+
+.beer{
+  float: right;
+  position: relative;
+  margin-right: 20%;
+
+}
+
+.clock{
+  float: left;
+  position: relative;
+  margin-left: 20%;
+}
+
+.Events{
+  font-family: "Comfortaa Regular", Comfortaa;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 7%;
+  color: black;
+  font-size: 2.5em;
+  border-bottom: 3px solid #c52323;
+  padding-bottom: 20px;
+}
+
+h3 {
+  background-color: #c52323;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 10%;
+  margin: auto;
+}
+
+.box{
+  background-color: white;
+  max-width: 15%;
+  text-align: center;
+  margin-right: 2%;
+  border: 1px solid #dee2e8;
+  -webkit-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+-moz-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+  position: relative;
+}
+
+.box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.month{
+  color: #6bc7e0;
+}
+
+
+footer{
+  background-image: url("swirl_pattern.png");
+  background-repeat:repeat-x;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer>p{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.foot_logo{
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
 }
