@@ -59,7 +59,15 @@ a:visited {
 
 /*GAELLE*/
 
-img {
+
+#containerWho img {
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#containerTeam img  {
     float: left;
     margin-right:10px;
     margin-bottom: 50px;
@@ -101,7 +109,15 @@ img {
     margin-top: 1%;
 }
 
-h2 {
+#containerWho h2 {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    font-size: 2.5em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;   
+}
+
+#containerTeam h2 {
     font-family: 'Comfortaa', cursive;
     color: black;
     font-size: 2.5em;
@@ -182,7 +198,7 @@ span.clear {
     margin-left: 50px;
 }
 
-figcaption {
+#containerTeam figcaption {
     background-color: #c52323;
     display: inline-block;
     border: solid 3px white;
