@@ -1,14 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
     <head>
         <title>Onepage Main Eventer</title>
+
         <meta charset="utf-8">
         <meta name="description" content="Onepage Main Eventer">
         <meta name="keywords" content="Main Eventer,evenementiel">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="reset.css" media="all" type="text/css">
         <link href="style.css" rel="stylesheet" media="all" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     </head>
 
     <body>
@@ -98,7 +101,6 @@
              </div>
            </div>
 
-
         <div class="container">
           <div class="box">
             <h3>Salsa Course</h3>
@@ -123,7 +125,38 @@
                   <h4>Financers Drink</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
-        </div>
+          </div>
+      </section>
+          
+      <form class="info" action="traitment.php" method="post">
+        <fieldset>
+          <legend>Need an Event ?</legend>
+          <div class="underline"></div>
+          <p>
+            <div class="container">
+            <div class="name">
+            <label for="name">Name *</label>
+            <input type="text" name="name" id="name" required />
+            </div>
+
+            <div class="last">
+            <label for="last">Lastname *</label>
+            <input type="text" name="last" id="last" required />
+            </div>
+            </div>
+
+            <div class="description"
+            <label for="mail">E-mail *</label>
+            <input type="text" name="mail" id="mail" required />
+
+            <label for="description">Description</label>
+            <textarea name="description" rows="10" cols="53"></textarea>
+            </div>
+          
+            <input type="submit" name="envoi" value="SEND" id="send"/>
+          </p>
+        </fieldset>
+      </form>
 
       <footer>
         <p>MAIN EVENTERS</P>
@@ -134,6 +167,5 @@
             <div><a href='https://www.facebook.com/' target="_blank"><img class="foot_logo" src="fb.jpeg" alt="facebook logo"></a></div>
           </div>
       </footer>
-
     </body>
 </html>
