@@ -1,19 +1,18 @@
-body {
-    background-color: white;
-    color: rgb(161, 159, 159);
-    line-height: 140%;
-    font-size: 1.1em;
-    text-align: justify;
-    font-family: 'Arial', sans-serif;
-    min-width:940px;
-    max-height:940px;
-    }
-
-header {
-
+body{
+  background-color: white;
+  color: rgb(161, 159, 159);
+  margin: auto;
+  line-height: 140%;
+  font-size: 1.1em;
+  text-align: justify;
+  font-family: 'Arial', sans-serif;
     width:100%;
     position: relative;
+    min-width:940px;
+    max-height:940px;
 }
+
+/* JEAN-MARC*/
 
 .header-img{
     width: 100%;
@@ -23,6 +22,7 @@ header {
     background-size: 100% 100%;
     filter: brightness(40%);
 }
+
 nav{
     float: left;
     position: absolute;
@@ -35,24 +35,29 @@ nav ul {
     margin: 8px;
     padding: 0;
 }
+
 nav li {
     display: inline-block;
     padding: 0 20px;
 }
+
 .logo{
     position: absolute;
     top: 145px;
     left: 41%;
 }
+
 a:link {
     color:white;
     text-decoration:none;
 }
-a:visited
-{
+
+a:visited {
     color:white;
     text-decoration: none;
 }
+
+/*GAELLE*/
 
 img {
     float: left;
@@ -76,6 +81,7 @@ img {
 
 #imageBiere {
     position: relative;
+
 }
 
 .capWho {
@@ -100,15 +106,13 @@ h2 {
     color: black;
     font-size: 2.5em;
     border-bottom: 3px solid #c52323;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;   
 }
 
 .firstH2 {
     display: inline-block;
     margin-top: 70px;
     margin-bottom: 50px;
-
 }
 
 .paragraphe1 {
@@ -126,7 +130,6 @@ span.clear {
     margin-left: -1%;
     margin-top: -2%;
 }
-
 
 #containerTeam {
     margin-left: 25%;
@@ -190,4 +193,96 @@ figcaption {
     padding-right: 30px;
     margin-bottom: 8px;
     margin-left: -10x;
+}
+
+/*CATERINA*/
+
+.beer{
+  float: right;
+  position: relative;
+  margin-right: 20%;
+
+}
+
+.clock{
+  float: left;
+  position: relative;
+  margin-left: 20%;
+}
+
+.Events{
+  font-family: "Comfortaa Regular", Comfortaa;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 7%;
+  color: black;
+  font-size: 2.5em;
+  border-bottom: 3px solid #c52323;
+  padding-bottom: 20px;
+}
+
+h3 {
+  background-color: #c52323;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  max-width: 70%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 10%;
+  margin: auto;
+}
+
+.box{
+  background-color: white;
+  max-width: 15%;
+  text-align: center;
+  margin-right: 2%;
+  border: 1px solid #dee2e8;
+  -webkit-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+-moz-box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
+  position: relative;
+}
+
+.box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.month{
+  color: #6bc7e0;
+}
+
+
+footer{
+  background-image: url("swirl_pattern.png");
+  background-repeat:repeat-x;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer>p{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.foot_logo{
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
 }
