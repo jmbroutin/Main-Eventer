@@ -31,7 +31,7 @@ body{
   margin-left: 8%;
 }
 
-h2{
+h3{
   background-color: #c52323;
 }
 
@@ -42,6 +42,7 @@ h2{
 }
 
 .box{
+  background-color: white;
   max-width: 15%;
   text-align: center;
   margin-right: 2%;
@@ -51,12 +52,22 @@ h2{
 box-shadow: -1px 10px 5px 0px rgba(204,198,204,1);
 }
 
+.box:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.month{
+  color: #6bc7e0;
+}
+
+
 footer{
   background-image: url("swirl_pattern.png");
   background-repeat:repeat-x;
   color: black;
   font-size: 2em;
   text-align: center;
+  margin-top: 5%;
 }
 
 footer>p{
