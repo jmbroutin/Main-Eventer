@@ -1,25 +1,19 @@
-
-@font-face {
-    font-family: cinzel;
-    src: url(Cinzel-Regular.ttf);
-}
 @font-face {
     font-family: comfortaa;
     src: url(Comfortaa-Regular.ttf)
 }
+
 body{
     background-color: white;
-    color: rgb(161, 159, 159);
+    color: rgb(138, 138, 138);
     line-height: 140%;
     font-size: 1.1em;
     text-align: left;
     font-family: comfortaa;
     position: relative;
-
 }
 
-.boxArticles {
-
+#boxContenu {
     min-width: 940px;
     min-height: 940px;
     margin-left: 25%;
@@ -29,13 +23,13 @@ body{
 
 /* JEAN-MARC*/
 
-.header-img{
+#header-img{
     width : 100%;
     height: 500px;
     background: url(images/header_Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(15%);
+    filter: brightness(25%);
     position: relative;
 }
 
@@ -49,30 +43,30 @@ nav{
 nav ul {
     list-style: none;
     margin: 8px;
-    padding: 0;
 }
 
 nav li {
     display: inline-block;
     padding: 0 20px;
-
 }
 
-.logo{
+#logo{
     position: absolute;
     top: 145px;
     left: 41%;
     animation-duration: 2s;
     animation-name: slidein;
 }
+
 @keyframes slidein {
     from {
         top: 280px;
     }
     to {
         top: 145px;
+    }
 }
-}
+
 a:link {
     color:white;
     text-decoration:none;
@@ -83,41 +77,27 @@ a:visited {
     text-decoration: none;
 }
 
+
 /*GAELLE*/
 
+#containerWho {
+    margin-top: 17%;
+    width:900px;
+    height:600px;
+}
 
 #containerWho img {
     float: left;
     margin-right:50px;
     margin-bottom: 50px;
-    position: relative;
-}
 
-#containerTeam img  {
-    float: left;
-    margin-right:10px;
-    margin-bottom: 50px;
-    position: relative;
-}
-
-.biere {
-    margin-right: 40px;
-}
-
-
-#containerWho {
-
-    margin-top: 20%;
-    width:940px;
-    height:600px;
 }
 
 #imageBiere {
     position: relative;
-
 }
 
-.capWho {
+#capWho {
     background-color: #c52323;
     display: inline-block;
     border: solid 3px white;
@@ -134,32 +114,22 @@ a:visited {
     margin-top: 1%;
 }
 
-#containerWho h2 {
-    font-family: 'Comfortaa', cursive;
-    color: black;
-    font-size: 2.8em;
-    border-bottom: 3px solid #c52323;
-    padding-bottom: 20px;
-}
-
-#containerTeam h2 {
-    font-family: 'Comfortaa', cursive;
-    color: black;
-    font-size: 2.8em;
-    border-bottom: 3px solid #c52323;
-    padding-bottom: 20px;
-}
-
-.firstH2 {
+#firstH2 {
     display: inline-block;
     margin-top: 70px;
     margin-bottom: 50px;
 }
 
-.paragraphe1 {
-    margin-top: 6%;
-    margin-left: 50px;
-    padding-left: 50px;
+#containerWho h2 {
+    color: black;
+    font-size: 2.8em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;
+}
+
+#paragraphe1 {
+    margin-top: 5%;
+    margin-left: 100px;
     text-align: justify;
 }
 
@@ -167,7 +137,7 @@ span.clear {
     clear: left; display: block;
 }
 
-.paragraphe2 {
+#paragraphe2 {
     display: inline-block;
     margin-left: -1%;
     margin-top: -2%;
@@ -178,11 +148,28 @@ span.clear {
     margin-top: 8%;
 }
 
-.secH2 {
+#containerTeam img  {
+    float: left;
+    margin-right:10px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#secH2 {
     display: inline-block;
-    margin-top: 20px;
     margin-left: 32%;
     margin-bottom: 80px;
+}
+
+#containerTeam h2 {
+    color: black;
+    font-size: 2.8em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;
+}
+
+.pTEAM {
+    font-size: 0.85em;
 }
 
 #ceoCOO {
@@ -214,7 +201,6 @@ span.clear {
     margin-left: -60px;
     margin-right: 50px;
     float: left;
-
 }
 
 #cto {
@@ -226,92 +212,52 @@ span.clear {
 #containerTeam figcaption {
     background-color: #c52323;
     display: inline-block;
-    border: solid 3px white;
     text-align: left;
     color: white;
     font-size: 0.9em;
     padding-left: 10px;
     padding-right: 30px;
-    margin-bottom: 8px;
+    padding-top: 3px;
+    margin-bottom: 15px;
     margin-left: -10x;
 }
 
+
 /*CATERINA*/
 
-.beer{
+#enteteEvents{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#OurEvents{
+    color: black;
+    font-size: 2.8em;
+    border-bottom: 3px solid #c52323;
+    padding-bottom: 20px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 6%;
+}
+
+#clock{
+    display: inline-block;
+    margin-right: 20%;
+}
+
+#beer{
   display: inline-block;
   margin-left: 35%;
-
 }
 
-.clock{
-  display: inline-block;
-  margin-right: 20%;
-
-}
-
-.Events{
-  font-family: comfortaa;
-  color: black;
-  font-size: 2.8em;
-  border-bottom: 3px solid #c52323;
-  padding-bottom: 20px;
-  display: inline-block;
-  position: absolute;
-  margin-left: -7%;
-  padding-top: 6%;
-
-}
-
-h3 {
-    background-color: #c52323;
-}
-
-
-#Events{
-  margin-top: 20%;
-}
-
-.container_headline{
-  display: flex;
-  justify-content: center;
-  position: relative;
-
-}
-
-.container{
-  display: flex;
-  width: 100%;
-  padding-top: 10%;
-  margin-left: 2%;
-  justify-content: flex-start;
-
-}
-
-.container h3 {
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.paragraphEvent{
-    font-size: 0.8em;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-h4 {
-    color: black;
-    font-size: 0.9em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.date {
-    color: black;
-    font-weight: bold;
-    margin-top: 10px;
+#container{
+    display: flex;
+    width: 100%;
+    padding-top: 10%;
+    margin-left: 2%;
+    justify-content: flex-start;
 }
 
 .box{
@@ -325,18 +271,47 @@ h4 {
     -moz-box-shadow: -1px 5px 5px 0px rgba(204,198,204,1);
     box-shadow: -1px 5px 5px 0px rgba(204,198,204,1);
     position: relative;
-
 }
 
 .box:hover {
-transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.2);
 }
 
-.boxXmas:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
+#container h3 {
+    background-color: #c52323;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
 
-.boxXmas {
+.month{
+    color: #6bc7e0;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.date {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#container h4 {
+    color: black;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.paragraphEvent{
+    font-size: 0.8em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#boxXmas {
     margin-right: 60px;
     margin-left: 40px;
     background-color: white;
@@ -350,111 +325,121 @@ transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will g
     position: relative;
 }
 
-.month{
-    color: #6bc7e0;
-    font-weight: bold;
-    margin-top: 10px;
+#boxXmas:hover {
+    transform: scale(1.2);
 }
-
 
 footer{
     background-image: url("images/swirl_pattern.png");
     background-repeat:repeat;
     color: black;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 5%;
-
-
+    margin-top: 3%;
 }
 
-footer>p{
+footer > p {
     padding-top: 5%;
     padding-bottom: 2%;
+    font-size: 2em;
+    text-align: center;
 }
 
-.container2{
+#container2{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5%;
-    max-width: 30%;
+    padding-bottom: 7%;
+    max-width: 20%;
     margin: auto;
 }
 
 .foot_logo{
-  border-radius: 50%;
-  position: relative;
-  display: inline-block;
-}
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+  }
+
 
 /*AUDREY*/
 
-form {
-  padding-top: 10px;
+#formulaire {
+    margin-top: 23%;
 }
 
-legend {
-  margin-right: 350px;
-  font-family: comfortaa;
+form {
+  padding-top: 15px;
+}
+
+#formulaire legend {
   color: black;
   font-size: 2.8em;
   padding-bottom: 20px;
 }
 
-.underline {
+#underline {
   border-top: 3px solid #c52323;
-  width: 380px;
+  width: 370px;
   height: 70px;
   min-width: 340px;
   max-height: 940px;
+  padding-bottom: 30px;
 }
 
-.containerFORM {
+#toutleform {
+    margin-left: 18%;
+}
+
+#NameLastname {
+    display: flex;
+}
+
+#containerFORM {
   display: flex;
   justify-content: flex-start;
-
 }
 
-.name {
-
-  margin-right: 120px;
+#nameAlign {
+  margin-right: 60px;
 }
 
+label {
+    color: #000000;
+    font-size: 1.2em;
+}
+ 
+textarea {
+    display: block;
+    border-radius: 15px;
+    border-color: #c52323;
+    border-width: thin;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    margin-top: 15px;
+    outline: none;
+    resize: none;
+    font-size: 1.2em;
+}
 
 input {
   display: block;
   border-radius: 15px;
   border-color: #c52323;
   border-width: thin;
-  padding-top: 2px;
-  padding-right: 4px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  margin-top: 8px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  margin-top: 15px;
   margin-bottom: 35px;
   outline: none;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-}
-
-textarea {
-  display: block;
-  border-radius: 15px;
-  border-color: #c52323;
-  border-width: thin;
-  padding-top: 2px;
-  padding-right: 4px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  margin-top: 8px;
-  outline: none;
-  resize: none;
-
+  font-size: 0.9em;
 }
 
 #send {
   margin-top: 50px;
-  margin-left: 155px;
+  margin-left: 205px;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 10px;
@@ -462,34 +447,11 @@ textarea {
   border-radius: 5px;
   background-color: #FFFFFF;
   color: #c52323;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 #send:hover {
   background-color: #c52323;
   color: #FFFFFF;
   cursor: pointer;
-}
-
-label {
-  color: #000000;
-}
-
-.description {
-  display: block;
-  color: #000000;
-
-}
-
-#formulaire {
-    margin-top: 23%;
-
-}
-
-#NameLastname {
-    display: flex;
-}
-
-#toutleform {
-    margin-left: 26%;
 }
