@@ -19,21 +19,23 @@ Développeurs web de A à Z :
 - *Caterina Mennito* [Profil GitHub](https://github.com/caterinamennito)  
   ("Our events" + Footer)
  
- ## Description :  
+## Description :  
  
- Ce projet a été réalisé dans le cadre d'un travail de groupe au sein de BeCode.  
+Ce projet a été réalisé dans le cadre d'un travail de groupe au sein de BeCode.  
  
- Les languages utilisés au développement du projet :  
--HTML
--CSS
--Markdown
+Les languages utilisés au développement du projet :  
+
+- HTML
+- CSS
+- Markdown
 
 Le résultat est le suivant :  
+
 [Projet-la-maquette](https://jmbroutin.github.io/Projet-la-maquette/) 
  
 L'exercice étant de reproduire cette maquette dont un aperçu ce trouve ci-dessous :
 
-![Maquette](https://github.com/becodeorg/BXL-Johnson-3.9/blob/master/01-La-prairie/01-html-css/group-project/assets/images/Maquette.jpg)
+![Maquette](https://github.com/jmbroutin/Projet-la-maquette/blob/cat/Maquette.jpg)  
 
 Nous espérons que celà vous plaira autant que sa réalisation a plu à notre équipe.
 
