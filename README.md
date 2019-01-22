@@ -31,7 +31,7 @@ Les languages utilisés au développement du projet :
 
 Le résultat est le suivant :  
 
-[Projet-la-maquette](https://jmbroutin.github.io/Projet-la-maquette/) 
+[Main-Eventer](https://jmbroutin.github.io/Main-Eventer/) 
  
 L'exercice étant de reproduire cette maquette dont un aperçu ce trouve ci-dessous :
 
