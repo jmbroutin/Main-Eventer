@@ -14,20 +14,29 @@ body{
     font-size: 1.1em;
     text-align: left;
     font-family: comfortaa;
-    width: 100%;
     position: relative;
 
 }
 
+.boxArticles {
+
+    min-width: 940px;
+    min-height: 940px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
 /* JEAN-MARC*/
 
 .header-img{
-    width: 100%;
+    width : 100%;
     height: 500px;
-    background: url(header_Background.jpg);
+    background: url(/images/header_Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(15%);
+    position: relative;
 }
 
 nav{
@@ -46,6 +55,7 @@ nav ul {
 nav li {
     display: inline-block;
     padding: 0 20px;
+
 }
 
 .logo{
@@ -96,9 +106,8 @@ a:visited {
 
 
 #containerWho {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 8%;
+
+    margin-top: 20%;
     width:940px;
     height:600px;
 }
@@ -128,7 +137,7 @@ a:visited {
 #containerWho h2 {
     font-family: 'Comfortaa', cursive;
     color: black;
-    font-size: 2.5em;
+    font-size: 2.8em;
     border-bottom: 3px solid #c52323;
     padding-bottom: 20px;
 }
@@ -136,7 +145,7 @@ a:visited {
 #containerTeam h2 {
     font-family: 'Comfortaa', cursive;
     color: black;
-    font-size: 2.5em;
+    font-size: 2.8em;
     border-bottom: 3px solid #c52323;
     padding-bottom: 20px;
 }
@@ -166,10 +175,7 @@ span.clear {
 }
 
 #containerTeam {
-    margin-left: 25%;
-    margin-right: 25%;
-    min-width: 940px;
-    max-height: 940px;
+    margin-top: 8%;
 }
 
 .secH2 {
@@ -234,52 +240,50 @@ span.clear {
 
 .beer{
   display: inline-block;
-  position: absolute;
-  right: 20%;
+  margin-left: 35%;
+
 }
 
 .clock{
   display: inline-block;
-  position: absolute;
-  left: 20%;
+  margin-right: 20%;
+
 }
 
 .Events{
   font-family: comfortaa;
-  display: inline-block;
-  text-align: center;
-  margin-top: 5%;
   color: black;
-  font-size: 2.5em;
+  font-size: 2.8em;
   border-bottom: 3px solid #c52323;
   padding-bottom: 20px;
-  margin: auto;
+  display: inline-block;
+  position: absolute;
+  margin-left: -7%;
+  padding-top: 6%;
+
 }
 
 h3 {
     background-color: #c52323;
 }
 
-#SuperEvent {
-    min-width: 940px;
-    max-height: 940px;
-}
 
 #Events{
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .container_headline{
   display: flex;
   justify-content: center;
+  position: relative;
+
 }
 
 .container{
   display: flex;
   width: 100%;
-  margin-top: 2%;
   padding-top: 10%;
-  margin-left: 23.5%;
+  margin-left: 2%;
   justify-content: flex-start;
 
 }
@@ -312,7 +316,8 @@ h4 {
 
 .box{
     background-color: white;
-    max-width: 15%;
+    width: 28%;
+    height: 25%;
     text-align: center;
     margin-right: 2%;
     border: 1px solid #dee2e8;
@@ -332,10 +337,11 @@ transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will g
     }
 
 .boxXmas {
-    margin-right: 75px;
+    margin-right: 60px;
     margin-left: 40px;
     background-color: white;
-    max-width: 15%;
+    width: 28%;
+    height: 25%;
     text-align: center;
     border: 1px solid #dee2e8;
     -webkit-box-shadow: -1px 5px 5px 0px rgba(204,198,204,1);
@@ -352,7 +358,7 @@ transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will g
 
 
 footer{
-    background-image: url("swirl_pattern.png");
+    background-image: url("/images/swirl_pattern.png");
     background-repeat:repeat;
     color: black;
     font-size: 2em;
@@ -391,15 +397,13 @@ legend {
   margin-right: 350px;
   font-family: comfortaa;
   color: black;
-  font-size: 45px;
+  font-size: 2.8em;
   padding-bottom: 20px;
-  min-width: 400px;
-  max-height: 940px;
 }
 
 .underline {
-  border-top: 4px solid #c52323;
-  width: 340px;
+  border-top: 3px solid #c52323;
+  width: 380px;
   height: 70px;
   min-width: 340px;
   max-height: 940px;
@@ -478,11 +482,8 @@ label {
 }
 
 #formulaire {
-    margin-top: 10%;
-    min-width:940px;
-    max-height:940px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 23%;
+
 }
 
 #NameLastname {
